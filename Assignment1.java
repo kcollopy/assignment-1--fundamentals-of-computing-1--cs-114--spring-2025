@@ -1,14 +1,16 @@
 // Import libraries here
 
+import java.util.Random;
+
 public class Assignment1 {
   public static void main(String[] args) {
 
-    // ***********************************************************************************
+    //***********************************************************************************
     // Step 1: Write initials in block letters **Come Bake Too**
     System.out.println("KC");
 
     //************************************************************************************
-    // Step 2: Convert Fahrenheite to Celsius
+    //Step 2: Convert Fahrenheite to Celsius
     final int base = 32;
     final double conversion_factor = 5.0 / 9.0;
 
@@ -19,8 +21,8 @@ public class Assignment1 {
 
     System.out.println("Celsius Temperature: " + CelsiusTemp);
 
-    // ************************************************************************************
-    // Step 3: Reverse a five character string without the first and last characters
+    //************************************************************************************
+    //Step 3: Reverse a five character string without the first and last characters
     String phrase = "zredx";
     String mutation1, mutation2, mutation3, mutation4, mutation5;
     
@@ -33,6 +35,16 @@ public class Assignment1 {
     System.out.println(mutation5);
 
     //**************************************************************************************
+    //Step 4: generate and save a random number between 32 – 16,384, inclusive
+    Random genorator = new Random();
+    int num1;
+
+    num1 = genorator.nextInt(32, 16384);
+
+    System.out.println(num1);
+    
+    //***************************************************************************************
+    
 
   }
 }
