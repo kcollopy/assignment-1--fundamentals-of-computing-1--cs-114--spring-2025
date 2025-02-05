@@ -20,6 +20,19 @@ public class Assignment1 {
     System.out.println("Celsius Temperature: " + CelsiusTemp);
 
     // ************************************************************************************
+    // Step 3: Reverse a five character string without the first and last characters
+    String phrase = "zredx";
+    String mutation1, mutation2, mutation3, mutation4, mutation5;
     
+    mutation1 = phrase.substring( 1, 4);     //Deleting the first and last character of the phrase
+    mutation2 = mutation1.replace('r', 'd' ) ;   //Replacing 'r' with'd' to read 'ded'
+    mutation3 = mutation2.substring(1, 3);   //Creating a substring to read 'ed'
+    mutation4 = mutation1.substring(0,1);    //Creating another substring to read 'r'
+    mutation5 = mutation4.concat(mutation3);                     //Concacting mutation 4 and 3 to read 'red'
+
+    System.out.println(mutation5);
+
+    //**************************************************************************************
+
   }
 }
