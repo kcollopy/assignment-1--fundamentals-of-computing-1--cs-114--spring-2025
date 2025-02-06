@@ -19,8 +19,6 @@ public class Assignment1 {
 
     CelsiusTemp = conversion_factor * (FahrenheiteTemp - base);
 
-    System.out.println("Celsius Temperature: " + CelsiusTemp);
-
     //************************************************************************************
     //Step 3: Reverse a five character string without the first and last characters
     String phrase = "zredx";
@@ -32,8 +30,6 @@ public class Assignment1 {
     mutation4 = mutation1.substring(0,1);    //Creating another substring to read 'r'
     mutation5 = mutation4.concat(mutation3);                     //Concacting mutation 4 and 3 to read 'red'
 
-    System.out.println(mutation5);
-
     //**************************************************************************************
     //Step 4: generate and save a random number between 32 – 16,384, inclusive
     Random genorator = new Random();
@@ -41,10 +37,23 @@ public class Assignment1 {
 
     num1 = genorator.nextInt(32, 16384);
 
-    System.out.println(num1);
-    
     //***************************************************************************************
-    
+    //Step5: Print results
+    System.out.println("Please enter a number in Fahrenheit:");
+    System.out.println("32");
+
+    System.out.println();
+
+    System.out.println("PLease enter a 5-character string:");
+    System.out.println("zderx");
+
+    System.out.println();
+
+    System.out.println("Generating random number. Continuing...");
+
+    System.out.println();
+
+    System.out.println("Your new string is " + CelsiusTemp + mutation5 + num1);
 
   }
 }
