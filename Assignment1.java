@@ -6,7 +6,7 @@ public class Assignment1 {
   public static void main(String[] args) {
 
     //***********************************************************************************
-    // Step 1: Write initials in block letters **Come Back Too**
+    // Step 1: Write initials in block letters
     System.out.println("KKK   KKK        CCCCCCCC");
     System.out.println("KKK  KKK       CCCC     CC");
     System.out.println("KKK KKK      CCC");
