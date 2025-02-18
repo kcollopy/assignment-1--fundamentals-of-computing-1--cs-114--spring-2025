@@ -7,16 +7,15 @@ public class Assignment1 {
 
     //***********************************************************************************
     // Step 1: Write initials in block letters **Come Back Too**
-    System.out.println("KK   KKK         CCC");
-    System.out.println("KK  KK        CCCCCCCC");
-    System.out.println("KK KK        CCCC");
-    System.out.println("KKKK        CCC");
-    System.out.println("KK KK        CCCC");
-    System.out.println("KK  KK        CCCCCCCC");
-    System.out.println("KK   KKK        CCC");
+    System.out.println("KKK   KKK        CCCCCCCC");
+    System.out.println("KKK  KKK       CCCC     CC");
+    System.out.println("KKK KKK      CCC");
+    System.out.println("KKKKK        CCC");
+    System.out.println("KKK KKK      CCC");
+    System.out.println("KKK  KKK       CCCC     CC");
+    System.out.println("KKK   KKK        CCCCCCCC");
 
-
-
+    System.out.println();
 
     //************************************************************************************
     //Step 2: Convert Fahrenheite to Celsius
@@ -47,7 +46,7 @@ public class Assignment1 {
     num1 = genorator.nextInt(32, 16384);
 
     //***************************************************************************************
-    //Step5: Print results
+    //Step 5: Print results
     System.out.println("Please enter a number in Fahrenheit:");
     System.out.println("32");
 
